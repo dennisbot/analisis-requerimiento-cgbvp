@@ -1,0 +1,226 @@
+
+
+TÉRMINOS DE REFERENCIA
+SERVICIO DE ANALISIS DE REQUERIMIENTO PARA EL DISEÑO DEL SISTEMA DE GESTION DE
+RRHH DEL CGBVP
+I. ÁREA USUARIA
+CGBVP-Dirección General de Voluntariados
+II. NORMA APLICABLE A LA CONTRATACIÓN
+Corresponde precisar que, de acuerdo al literal a) del numeral 5.1 del artículo 5 del Texto
+Único Ordenado de la Ley N° 30225, Ley de Contrataciones del Estado, aprobado con
+Decreto Supremos N° 082-2019-EF; las contrataciones cuyos montos sean iguales o
+inferiores a ocho (8) Unidades Impositivas Tributarias, vigentes al momento de la
+transacción, son supuestos excluidos de la aplicación de la precitada norma, sujetos a
+supervisión del Organismo Supervisor de las Contrataciones del Estado (OSCE).
+III. FINALIDAD DE LA CONTRATACION
+Análisis de requerimiento para el diseño del sistema de gestión de RRHH para la Dirección
+General de Voluntariado del CGBVP.
+IV. OBJETO DE LA CONTRATACIÓN
+Desarrollar el análisis de requerimiento para el diseño del sistema de gestión de RRHH para
+la Dirección General de Voluntariado del CGBVP, de acuerdo con los lineamientos
+establecidos en los términos de referencia.
+V. DESCRIPCIÓN DEL SERVICIO
+El servicio se desarrollará de la siguiente manera:
+
+Análisis de Requerimiento del diseño del sistema de gestión de RRHH para la
+Dirección General de Voluntariado del CGBVP.
+Módulos
+o Módulo de Registro: Modulo encargado del registro de la información de los
+bomberos voluntarios:
+o Formulario de registro de apertura al sistema de los datos personales del
+postulante en las UBOs.
+o Formulario de datos de Instrucción educativa del postulante.
+o Formulario de datos de trabajo del postulante.
+o Formulario datos principales del bombero voluntario.
+o Formulario de registro de licencias del bombero voluntario por el Comando
+Nacional, Comandancias Departamentales y por las UBOs de acuerdo con
+el grado del Bombero.
+o Formulario de registro y control de las designaciones.
+o Formulario de registro de sanciones y deméritos de los bomberos.
+Módulo de Gestión: Modulo encargado de gestionar los procesos de los RRHH de
+la DIGEVO del CGBVP, cabe indicar que los procesos que se deberá desarrollar el
+proveedor deberán estar alineado al Reglamento Interno de Funcionamientos (RIF)
+del Cuerpo General de Bomberos Voluntarios del Perú, asimismo, se detalla los
+procesos a continuación:
+o Proceso de selección de postulantesaaspirante, registrar de acuerdo con
+el reglamento de admisión aprobado por NDR.
+o Proceso de incorporación del aspirante al CGBVP en los casos de
+bomberos activos y como asimilados.
+o Procesos de licencias al bombero voluntario.
+los
+• Proceso de la jornada voluntaria en el servicio y en las unidades básicas
+operativas.
+o Proceso del bombero a pase en reserva.
+o Proceso de pase a retiro del bombero voluntario.
+o Proceso de aptitud para el servicio de emergencias por capacidad física y
+mental.
+• Proceso de reconocimiento y condecoraciones.
+o Proceso de ascensos de acuerdo a las NDR.
+o Proceso de accidente de los efectivos en acto de servicio.
+o Proceso de reingreso al CGBVP
+o Proceso de escalafón.
+o Proceso de traslados del bombero voluntario.
+o Proceso para la emisión de carnet de identidad al bombero voluntario.
+o Proceso de registro de cursos de los bomberos voluntarios.
+Módulo de Consultas y Reportes: Modulo de consultas y reportes necesarios para
+la gestión del personal, independientemente a los reportes identificados en los
+procesos mencionados anteriormente.
+Módulo de Seguridad y Mantenedores: Estructurar el sistema para los ingresos
+correspondientes al sistema de acuerdo con el perfil del usuario, asimismo en este
+módulo se gestionará los mantenedores de las tablas maestras para el diseño.
+El Proveedor deberá presentar la siguiente documentación en su informe final:
+Por cada módulo de registro, procesos, consultas y reportes el proveedor deberá
+presentar el análisis del requerimiento y detallar en forma descriptiva cada módulo,
+cada proceso, consultas y reportes que va a tener el sistema a desarrollar.
+El proveedor deberá presentar todos los diagramas de Flujos de los procesos
+mencionados.
+El proveedor deberá presentar el diseño de la Base de Datos con su diccionario de
+datos.
+
+
+
+VI. RECURSOS Y FACILIDADES PARA PROVEER POR LA ENTIDAD:
+La INBP y el CGBVP facilitará el acceso a la información y a los alcances de cada módulo que
+necesite el proveedor para el desarrollo del servicio contratado.
+VII. LUGAR Y PLAZO DE EJECUCIÓN
+Lugar: El servicio se desarrollará de manera presencial/remota en coordinación con la UTI
+de la INBP y el área usuaria de la DIGEVO del CGBVP.
+Plazo: La prestación del servicio tendrá un plazo máximo de hasta ciento y veinte (120) días
+calendario, contabilizados a partir del día siguiente de notificación de la orden de servicio.
+VIII. REQUISITOS DEL POSTOR
+REQUISITOS
+PERFIL DEL PROVEEDOR
+EXPERIENCIA DEL
+PROVEEDOR
+RUC vigente.
+DETALLE
+Contar con Registro Nacional de Proveedores (RNP)
+vigente (de corresponder).
+No estar imposibilitado para contratar con el Estado.
+En caso de que el proveedor sea persona jurídica:
+La experiencia se medirá en función al monto de
+facturación, el cual debe ser igual o mayor a S/
+50,000.00, (cien mil soles con 00/100 soles), en un
+periodo no mayor (5) años. Se acreditará con copias
+simples de contratos u ordenes de servicio y su
+respectiva conformidad o constancias de prestación o
+comprobante de pago cuya cancelación se acredite
+documental fehacientemente con váucher de depósito,
+nota de abono, reporte de estado de cuenta, cualquier
+otro documento emitido por Entidad del sistema
+financiero que acredite el abono o mediante
+cancelación en el mismo comprobante de pago.
+La experiencia solicitada será acreditada mediante constancias o certificados o convenios u
+órdenes de compra/servicio.
+IX. PRESTACIONES ACCESORIAS A LA PRESTACIÓN PRINCIPAL:
+No aplica.
+X. CONFORMIDAD DE SERVICIO
+La conformidad de servicio será otorgada por la Unidad de Tecnologías de la información,
+luego de haber recibido el servicio correspondiente, en un plazo máximo de 7 días
+calendario de precedida la recepción del informe presentado por el proveedor. De ser el
+caso, el área usuaria formulará observaciones indicando el plazo de subsanación, el cual no
+podrá exceder los 8 días calendario.
+
+
+XI. FORMA DE PAGO
+El pago por los servicios a favor del contratista se efectuará dentro de los diez (10) días
+calendario posterior al otorgamiento de la conformidad del servicio, previa verificación de
+las condiciones establecidas en la orden de Servicio y de acuerdo con los términos de
+referencia.
+El expediente para el pago será gestionado por la Unidad de Logística y Control Patrimonial
+de la INBP, debiendo remitirlo a la Unidad de Economía respectivamente a Control Previo.
+XII. CONFIDENCIALIDAD DEL SERVICIO
+El proveedor, en virtud del servicio que brinda, acepta que mantendrá en reserva toda la
+información a la cual tenga acceso, sin poder publicarla ni usarla, bajo cualquier modalidad,
+para fines distintos a los establecidos en el presente documento.
+XIII. PROPIEDAD INTELECTUAL
+El contratista no tendrá ningún título, patente u otros derechos de propiedad en ninguno
+de los documentos preparados para la Entidad, tales derechos pasarán a formar parte de la
+Intendencia Nacional de Bomberos del Perú.
+XIV. RESPONSABILIDAD POR VICIOS OCULTOS
+El proveedor es responsable de la calidad del servicio ofrecido y por los vicios ocultos de
+la prestación ofrecida por un plazo de un (01) año contado a partir de la conformidad
+otorgada.
+XV. PENALIDADES
+Penalidad por mora: si el contratista incurre en retraso injustificado en la ejecución de
+las prestaciones objeto del servicio, la Entidad le aplica automáticamente una penalidad
+por mora por cada día de atraso, de acuerdo con la siguiente fórmula:
+Penalidad Diaria =
+Donde:
+0.10 x Monto
+Fx Plazo en días
+F = 0.25 para plazos mayores a sesenta (60) días o;
+F = 0.40 para plazos menores o iguales a sesenta (60) días.
+Tanto el monto como el plazo se refieren, según corresponda, al contrato o ítem que
+debió ejecutarse o, en caso de que estos involucraran obligaciones de ejecución
+periódica, a la prestación parcial que fuera materia de retraso.
+Se considera justificado el retraso, cuando el contratista acredite, de modo
+objetivamente sustentado, que el mayor tiempo transcurrido no le resulta imputable.
+Esta calificación del retraso como justificado no da lugar al pago de gastos generales de
+ningún tipo.
+Estas penalidades se deducen de los pagos a cuenta o del pago final.
+XVI. RESOLUCIÓN DEL CONTRATO
+La Entidad puede resolver la Orden de Servicio y/o contrato girado a nombre del
+proveedor contratado, en los siguientes casos:
+
+
+a) Incumpla injustificadamente obligaciones contractuales, legales o reglamentarias a
+su cargo, pese a haber sido requerido para ello;
+b) Haya llegado a acumular el monto máximo de la penalidad por mora o el monto
+máximo para otras penalidades, en la ejecución de la prestación a su cargo;
+c) Paralice o reduzca injustificadamente la ejecución de la prestación, pese a haber
+sido requerido para corregir tal situación.
+d) Mutuo disenso.
+El contratista puede solicitar la resolución del contrato en los casos en que la Entidad
+incumpla injustificadamente con el pago y/u otras obligaciones esenciales a su cargo,
+pese a haber sido requerida con carta.
+Cualquiera de las partes puede resolver el contrato por caso fortuito, fuerza mayor o por
+hecho sobreviniente al perfeccionamiento del contrato que no sea imputable a las
+partes y que imposibilite de manera definitiva la continuación de la ejecución del
+contrato, lo cual deberá ser comunicado mediante una carta.
+El contrato puede ser resuelto por mutuo acuerdo entre las partes, previa opinión del
+área usuaria.
+Para tal efecto, si alguna de las partes falta al cumplimiento de sus obligaciones, la parte
+perjudicada requiere mediante carta que las ejecute en un plazo no mayor a cinco (5)
+días, bajo apercibimiento de resolver el contrato. Si vencido dicho plazo el
+incumplimiento continúa, la parte perjudicada puede resolver el contrato en forma total
+o parcial, comunicando mediante carta la decisión de resolver el contrato. El contrato
+queda resuelto de pleno derecho a partir de la recepción de dicha comunicación.
+Asimismo, la Entidad puede resolver el contrato sin requerir previamente el
+cumplimiento al contratista, cuando se deba a la acumulación del monto máximo de
+penalidad por mora u otras penalidades o cuando la situación de incumplimiento no
+pueda ser revertida. En estos casos, basta comunicar al contratista mediante carta la
+decisión de resolver el contrato.
+Adicionalmente, la Entidad podrá resolver el contrato cuando el proveedor no cumple
+determinada prestación a su cargo, establecida con toda precisión. La resolución se
+produce de pleno derecho cuando la entidad la comunica al proveedor de acuerdo con
+el presente extremo.
+XVII. CLÁUSULA ANTICORRUPCIÓN:
+Con la remisión de la oferta, el proveedor declara y garantiza no haber, directa o
+indirectamente, o tratándose de una persona jurídicaatravés de sus socios, integrantes
+de los órganos de administración, apoderados, representantes legales, funcionarios,
+asesores o personas vinculadas a las que se refiere el artículo 7 del Reglamento de la Ley
+de Contrataciones del Estado, ofrecido, negociado o efectuado, cualquier pago o, en
+general, cualquier beneficio o incentivo ilegal en relación al contrato.
+Asimismo, el proveedor se obliga a conducirse en todo momento, durante la ejecución
+de la Orden de Servicio y/o contrato, con honestidad, probidad, veracidad e integridad
+y de no cometer actos ilegales o de corrupción, directa o indirectamente o a través de
+sus socios, accionistas, participacionistas, integrantes de los órganos de administración,
+apoderados, representantes legales, funcionarios, asesores y personas vinculadas a las
+que se refiere el artículo 7 del Reglamento de la Ley de Contrataciones del Estado.
+Además, el proveedor se compromete a i) comunicar a las autoridades competentes, de
+manera directa y oportuna, cualquier acto o conducta ilícita o corrupta de la que tuviera
+conocimiento; y ii) adoptar medidas técnicas, organizativas y/o de personal apropiadas
+para evitar los referidos actos o prácticas.
+Finalmente, el proveedor se compromete a no colocar a los funcionarios públicos con
+los que deba interactuar, en situaciones reñidas con la ética. En tal sentido, reconoce y
+acepta la prohibición de ofrecerles a éstos cualquier tipo de obsequio, donación,
+beneficio y/o gratificación, ya sea de bienes o servicios, cualquiera sea la finalidad con
+la que se lo haga.
+XVIII. CLÁUSULA DE CUMPLIMIENTо:
+Son causales de resolución de contrato la presentación con información inexacta o falsa
+de Declaración jurada de prohibiciones e incompatibilidades a que se hace referencia en
+la Ley de prevención y mitigación del conflicto de intereses en el acceso y salida de
+personal del servicio público. Asimismo, en caso se incumpla con los impedimentos
+señalados en el Art. 5 de dicha ley, se aplicará la inhabilitación por cinco años para
+contratar o presentar servicios al estado, bajo cualquier modalidad.

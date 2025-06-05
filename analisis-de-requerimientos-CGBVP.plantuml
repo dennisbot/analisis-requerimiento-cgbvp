@@ -1,0 +1,51 @@
+@startgantt analisis-de-requerimientos-CGBVP
+Project starts the 21 May 2025
+' Proyecto: Sistema de Gestión de RRHH para la Dirección General de Voluntariado del CGBVP
+' Duración: 4 meses desde el 21 de mayo de 2025
+
+' Fase de Análisis
+[Lectura del RIF] lasts 20 days and is 30% completed
+[Lectura del RIF] starts at 21 May 2025
+[Recolección esquema actual] lasts 15 days
+[Recolección esquema actual] starts at 21 May 2025 and is 10% completed
+
+' Fase de Diseño
+[Diseño ER] lasts 10 days and starts at [Lectura del RIF]'s end and is 0% completed
+note bottom
+  Entrevistas con el comando nacional y colaboradores
+  para definir nuevos datos que no se consideraron
+  en el esquema antiguo.
+end note
+[Diccionario de datos] lasts 5 days and starts at [Diseño ER]'s end and is 0% completed
+[Diagramas de clases] lasts 7 days and starts at [Diccionario de datos]'s end and is 0% completed
+note bottom
+  Entrevistas con el comando nacional y colaboradores
+  para definir las clases que tendrá el sistema.
+end note
+[Casos de uso largos] lasts 8 days and starts at [Diagramas de clases]'s end and is 0% completed
+note bottom
+  Entrevistas con el comando nacional y colaboradores
+  para definir los actores del sistema (usuarios).
+end note
+[Casos de uso cortos (iconos)] lasts 6 days and starts at [Casos de uso largos]'s end and is 0% completed
+[Workflows] lasts 20 days and starts at [Casos de uso cortos (iconos)]'s end and is 0% completed
+note bottom
+  Entrevistas con el comando nacional y colaboradores
+  para definir los flujos del sistema (flujo jerarquico) 
+  para todos los workflows del sistema.
+end note
+' Módulo de Registro
+[Formularios de registro] lasts 15 days and starts at [Workflows]'s end and is 0% completed
+
+' Módulo de Gestión
+[Procesos] lasts 15 days and starts at [Formularios de registro]'s end and is 0% completed
+
+' Módulo de Consultas y Reportes
+[Consultas y Reportes] lasts 6 days and starts at [Procesos]'s end and is 0% completed
+
+' Módulo de Seguridad y Mantenedores
+[Seguridad y Mantenedores] lasts 6 days and starts at [Consultas y Reportes]'s end and is 0% completed
+
+' Documentación Final
+[Documentación final] lasts 10 days and starts at [Seguridad y Mantenedores]'s end and is 0% completed
+@endgantt
