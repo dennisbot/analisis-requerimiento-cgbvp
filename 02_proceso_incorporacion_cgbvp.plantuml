@@ -1,0 +1,85 @@
+@startuml proceso_incorporacion_cgbvp
+' Style settings for clarity
+skinparam {
+    Padding 5
+    BoxPadding 10
+    ArrowThickness 2
+    ArrowColor black
+    ActorBorderColor black
+    ParticipantBorderColor black
+    ActorFontColor black
+    ParticipantFontColor black
+    ActorFontSize 14
+    ParticipantFontSize 14
+    ArrowFontSize 12
+    note {
+        BorderColor black
+        FontColor black
+        FontSize 10
+    }
+}
+
+actor "Postulante" as Applicant
+participant "Primer Jefe UBO\n(Compañía/Estación)" as UBOCommander
+participant "Sistema RRHH\n(Módulo Registro)" as System
+participant "Comandancia\nDepartamental (CCDD)" as CCDD
+participant "Dir. Gral. Voluntariado\n(DGV)" as DGV
+participant "Comando Nacional\n(Comandante General)" as CG
+
+title Diagrama de Secuencia: Proceso de incorporación del aspirante al CGBVP (activo y asimilado)
+
+activate Applicant
+Applicant -> UBOCommander : Se presenta voluntariamente para prestar servicios [a129]
+deactivate Applicant
+
+activate UBOCommander
+    note right: Primer Jefe UBO procede aceptación e inicia trámites [a11.10c]
+
+    UBOCommander -> System : Iniciar registro de "Ficha Única" del Postulante [a6.1]
+    activate System
+        System --> UBOCommander : Formulario de registro inicial listo
+    deactivate System
+
+    loop Ingreso y Carga de Datos Personales y Documentación
+        UBOCommander <-> System : Ingresa datos (Doc. identidad, contacto, estudios, etc.)
+        UBOCommander <-> System : Carga/Asocia documentación requerida (copias, certificados, declaración jurada, exámenes)
+    end
+
+    UBOCommander -> CCDD : Propone postulante para certificación como "Aspirante" [a129]
+deactivate UBOCommander
+
+activate CCDD
+    note right: CCDD evalúa requisitos y emite Resolución de Aspirante
+
+    CCDD -> DGV : Notifica/Envía Resolución de Aspirante
+deactivate CCDD
+
+activate DGV
+    note right: DGV administra el Escalafón y Legajo Personal
+
+    DGV -> CG : Propone incorporación formal y reconocimiento de grado (e.g., Seccionario)
+deactivate DGV
+
+activate CG
+    CG -> System : Emite Resolución del Comando Nacional de Incorporación/Reconocimiento
+    activate System
+        System --> CG : Resolución registrada y formalizada
+    deactivate System
+deactivate CG
+
+activate DGV
+    DGV -> System : Actualiza "Escalafón" y abre "Legajo u Hoja de Servicio Institucional" basado en Resolución
+    activate System
+        System --> DGV : Escalafón actualizado, Legajo aperturado
+    deactivate System
+
+    DGV -> System : Vincula Ficha Única (registro inicial) al Legajo Personal
+    activate System
+        System --> DGV : Ficha Única vinculada
+    deactivate System
+
+    System --> Applicant : Notificación de incorporación formal como Bombero Activo (Seccionario) o Asimilado
+
+deactivate DGV
+
+@enduml

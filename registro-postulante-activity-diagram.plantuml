@@ -1,0 +1,45 @@
+@startuml
+|Postulante|
+start
+:Presentarse en UBO;
+|Primer Jefe UBO|
+:Valida aceptación inicial;
+if (Acepta?) then (sí)
+  :Solicitar documentación al postulante;
+  |Postulante|
+  :Entregar datos/documentos;
+  |Primer Jefe UBO|
+  fork
+    :Verificar identidad;
+  fork again
+    :Verificar estudios/perfil;
+  end fork
+  if (Todo OK?) then (sí)
+    :Generar propuesta de aspirante → CCDD;
+    |CCDD|
+    :Evaluar requisitos;
+    if (Requisitos OK?) then (sí)
+      :Emitir Resolución Aspirante → DGV;
+      |DGV|
+      :Administrar escalafón y legajo;
+      :Proponer incorporación → CG;
+      |CG|
+      :Emitir Resolución Nacional;
+      |DGV|
+      :Actualizar escalafón, abrir legajo;
+      |Sistema RRHH|
+      :Vincular ficha y notificar al postulante;
+      stop
+    else (no)
+      :Notificar deficiencias a UBO para corrección;  
+      --> loop
+    endif
+  else (no)
+    :Rechazar o solicitar correcciones;
+    stop
+  endif
+else (no)
+  :Fin del proceso;
+  stop
+endif
+@enduml

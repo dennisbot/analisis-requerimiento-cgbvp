@@ -1,0 +1,58 @@
+@startuml
+left to right direction
+
+rectangle "Sistema de RRHH del CGBVP" as HRS
+
+actor "Bombero Voluntario\n(Miembro Individual)" as Bombero
+actor "Administrador a Nivel de Unidad\n(e.g., Jefe de UBO/Sección)" as UnitAdmin
+actor "Comandante Departamental" as DeptAdmin
+actor "Jefe de Brigada" as BrigAdmin
+actor "Administrador a Nivel Nacional de HR\n(Director General de Voluntariado)" as NationalHR
+actor "Director General de Formación Académica" as NationalTraining
+actor "Miembro del Consejo Nacional de Disciplina" as DisciplinaryUser
+actor "Inspector General" as InspectorGeneral
+actor "Inspector Departamental" as InspectorDepartamental
+actor "Comité Electoral Nacional" as Electoral
+actor "Comandante General" as HighCommand
+actor "Vicecomandante General" as SecondHighCommand
+actor "Personal Médico" as Medical
+
+rectangle "Sistema INBP" as INBP {
+    artifact INBP_Resources [
+        Administración de Recursos de la INBP
+    ]
+}
+
+rectangle "Sistemas Externos" as External {
+    artifact ExternalBenefits [
+        ESSALUD / SIS (Beneficios de Salud)
+    ]
+    artifact ExternalLegalGovt [
+        Poder Judicial / CENEPRED (Estado Legal/Acreditación)
+    ]
+    artifact ExternalEducationCert [
+        SUNEDU / Colleges (Verificación Académica)
+    ]
+}
+
+' --- Connections ---
+Bombero -- HRS
+UnitAdmin -- HRS
+DeptAdmin -- HRS
+BrigAdmin -- HRS
+NationalHR -- HRS
+NationalTraining -- HRS
+DisciplinaryUser -- HRS
+InspectorGeneral -- HRS
+InspectorDepartamental -- HRS
+Electoral -- HRS
+HighCommand -- HRS
+SecondHighCommand -- HRS
+Medical -- HRS
+
+INBP -- HRS
+ExternalBenefits -- HRS
+ExternalLegalGovt -- HRS
+ExternalEducationCert -- HRS
+
+@enduml
