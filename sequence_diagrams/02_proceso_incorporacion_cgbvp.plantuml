@@ -49,15 +49,15 @@ activate UBOCommander
 deactivate UBOCommander
 
 activate CCDD
-    note right: CCDD evalúa requisitos y emite Resolución de Aspirante
+    note right: CCDD evalúa requisitos y\n emite Resolución de Aspirante
 
     CCDD -> DGV : Notifica/Envía Resolución de Aspirante
 deactivate CCDD
 
 activate DGV
-    note right: DGV administra el Escalafón y Legajo Personal
+    note right: DGV administra el Escalafón\n y Legajo Personal
 
-    DGV -> CG : Propone incorporación formal y reconocimiento de grado (e.g., Seccionario)
+    DGV -> CG : Propone incorporación formal\n y reconocimiento de grado (e.g., Seccionario)
 deactivate DGV
 
 activate CG
@@ -68,7 +68,7 @@ activate CG
 deactivate CG
 
 activate DGV
-    DGV -> System : Actualiza "Escalafón" y abre "Legajo u Hoja de Servicio Institucional" basado en Resolución
+    DGV -> System : Actualiza "Escalafón" y abre\n "Legajo u Hoja de Servicio Institucional"\n basado en Resolución
     activate System
         System --> DGV : Escalafón actualizado, Legajo aperturado
     deactivate System

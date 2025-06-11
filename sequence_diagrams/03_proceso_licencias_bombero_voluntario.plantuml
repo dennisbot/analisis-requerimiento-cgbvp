@@ -1,0 +1,49 @@
+@startuml proceso_licencias_bombero_voluntario
+title Diagrama de Secuencia: Proceso de Licencias al Bombero Voluntario (Según RIF)
+
+actor "Bombero Voluntario" as BV
+
+box "Órganos del CGBVP"
+    participant "Unidad Básica Operativa (UBO)" as UBO
+    participant "Comandancia Departamental" as DEP
+    participant "Comando Nacional" as CN
+    participant "Dirección General de Voluntariado" as DGV
+end box
+
+note right of UBO
+Encargado: Comandante de UBO
+end note
+
+note right of DEP
+Encargado: Comandante Departamental
+end note
+
+note right of CN
+Encargado: Comandante General del CGBVP
+end note
+
+BV -> UBO: Solicita Licencia (para Seccionarios)
+activate UBO
+UBO --> BV: Otorga Licencia
+UBO -> DGV: Notifica Licencia Otorgada
+deactivate UBO
+
+BV -> DEP: Solicita Licencia (para Oficiales)
+activate DEP
+DEP --> BV: Otorga Licencia
+DEP -> DGV: Notifica Licencia Otorgada
+deactivate DEP
+
+alt Oficiales Superiores o Generales
+    BV -> CN: Solicita Licencia
+    activate CN
+    CN -> CN: Evalúa y Emite Resolución (licencia)
+    note right of CN
+    La resolución es firmada por el Comandante General
+    end note
+    CN --> BV: Notifica Resolución/Licencia Otorgada
+    CN -> DGV: Notifica Licencia Otorgada
+    deactivate CN
+end
+
+@enduml

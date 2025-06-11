@@ -32,7 +32,7 @@ El servicio se desarrollará de la siguiente manera:
 - **Módulo de Gestión:** Modulo encargado de gestionar los procesos de los RRHH de la DIGEVO del CGBVP, cabe indicar que los procesos que se deberá desarrollar el proveedor deberán estar alineado al Reglamento Interno de Funcionamientos (RIF) del Cuerpo General de Bomberos Voluntarios del Perú, asimismo, se detalla los procesos a continuación:
   - Proceso de selección de postulantes a aspirante, registrar de acuerdo con el reglamento de admisión aprobado por NDR.
   - Proceso de incorporación del aspirante al CGBVP en los casos de bomberos activos y como asimilados.
-  - Procesos de licencias al bombero voluntario.
+  - Proceso de licencias al bombero voluntario.
   - Proceso de la jornada voluntaria en el servicio y en las unidades básicas operativas.
   - Proceso del bombero a pase en reserva.
   - Proceso de pase a retiro del bombero voluntario.
